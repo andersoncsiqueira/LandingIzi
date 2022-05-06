@@ -51,6 +51,7 @@ h1 {
     font-size: 48px;
     position: absolute;
     color: wheat;
+    text-shadow: black 4px 4px ;
     
 }
 
@@ -61,15 +62,20 @@ right: 150px;
 color: wheat;
 font-size: 45px;
 font-weight: bolder;
+text-shadow: black 4px 4px ;
 }
 
 .info {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 10px;
     margin-left: 145px;
+    align-items: center;
+    
 }
 
 .infored {
+    width: 250px;
     display: flex;
     flex-direction: column;
     background-color: #F2522E;
@@ -80,10 +86,12 @@ font-weight: bolder;
     justify-content: center;
     align-items: center;
     color: beige;
+    box-shadow: black 2px 2px;
 }
 
 .infoyellow {
 
+    width: 300px;
     display: flex;
     background-color: #F2a922;
     margin: 10px;
@@ -92,6 +100,7 @@ font-weight: bolder;
     height: 85px;
     justify-content: center;
     align-items: center;
+    box-shadow: black 2px 2px;
 
 }
 
@@ -104,6 +113,7 @@ font-weight: bolder;
 
 #calcprinpal {
     height: 300px;
+    
 }
 
 .cards {
@@ -118,10 +128,7 @@ font-weight: bolder;
     
 }
 
-.call img {
-   bottom: 60px;
-    position: absolute;
-}
+   
 
 #calc2 {
     position: absolute;
@@ -129,4 +136,14 @@ font-weight: bolder;
     bottom: 120px;
     right: 250px;
     transform: rotateZ(45deg);
+}
+
+.buttonwhats {
+    position: absolute;
+    bottom: 60px; 
+    width: 199px;
+    height: 199px;
+    border-radius: 50%;
+    box-shadow: black 2px 5px;
+
 }
