@@ -29,10 +29,11 @@ align-items: center;
 }
 
 .call {
-
+    display: flex;
     height: 150px;
     width: 100vw;
     background-color: #F2522E;
+    justify-content: center;
 
 }
 
@@ -40,6 +41,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -69,13 +71,35 @@ font-weight: bolder;
 
 .infored {
     display: flex;
+    flex-direction: column;
     background-color: #F2522E;
     margin: 5px;
     padding: 5px;
     border-radius: 15px;
-    height: 65px;
+    height: 45px;
     justify-content: center;
     align-items: center;
+    color: beige;
+}
+
+.infoyellow {
+
+    display: flex;
+    background-color: #F2a922;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.infored span {
+
+    font-size: 11px;
+    position: relative;
+    
 }
 
 #calcprinpal {
@@ -92,4 +116,17 @@ font-weight: bolder;
     
    margin-top: 10px;
     
+}
+
+.call img {
+   bottom: 60px;
+    position: absolute;
+}
+
+#calc2 {
+    position: absolute;
+    height: 100px;
+    bottom: 120px;
+    right: 250px;
+    transform: rotateZ(45deg);
 }
