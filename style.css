@@ -24,8 +24,8 @@ height: 70vh;
 border-radius: 45px;
 position: relative;
 display: flex;
+justify-content:space-around;
 align-items: center;
-
 }
 
 .call {
@@ -45,7 +45,8 @@ align-items: center;
 
 h1 {
     top: 20px;
-    left: 10px;
+    left: 75px;
+    font-size: 48px;
     position: absolute;
     color: wheat;
     
@@ -54,7 +55,7 @@ h1 {
 #price {
 position: absolute;
 top: 25px;
-right: 30px;
+right: 150px;
 color: wheat;
 font-size: 45px;
 font-weight: bolder;
@@ -63,6 +64,7 @@ font-weight: bolder;
 .info {
     display: block;
     margin: 10px;
+    margin-left: 145px;
 }
 
 .infored {
@@ -77,7 +79,7 @@ font-weight: bolder;
 }
 
 #calcprinpal {
-    height: 200px;
+    height: 300px;
 }
 
 .cards {
@@ -88,7 +90,6 @@ font-weight: bolder;
 
 .cards img {
     
-    height: 45px;
-    width: 45px;
+   margin-top: 10px;
     
 }
