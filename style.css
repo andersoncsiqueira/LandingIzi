@@ -147,3 +147,11 @@ text-shadow: black 4px 4px ;
     box-shadow: black 2px 5px;
 
 }
+
+
+#logo {
+
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
