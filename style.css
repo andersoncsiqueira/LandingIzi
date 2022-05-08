@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+.off {
+    display: none;
+}
+
 body {
     background: black;
 }
@@ -97,7 +101,41 @@ text-shadow: black 4px 4px ;
     justify-content: center;
     align-items: center;
     box-shadow: black 2px 2px;
+    position: relative;
 
+}
+
+
+#plus {
+    position: absolute;
+    width: 15px;
+    right: 8px;
+    bottom: 8px;
+    cursor: pointer;
+    
+}
+
+#plusInfo {
+    position: absolute;
+    height: 400px;
+    width: 98vw;
+    z-index: 99;
+    background-color: #F2a922;
+    
+}
+
+#close {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 8px;
+    top: 16px;
+    color: red;
+    font-weight: bolder;
+    border: red solid 1px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
 }
 
 .infored span {
@@ -136,12 +174,13 @@ text-shadow: black 4px 4px ;
 }
 
 .buttonwhats {
-    position: absolute;
+    position: relative;
     bottom: 60px; 
     width: 199px;
     height: 199px;
     border-radius: 50%;
     box-shadow: black 2px 5px;
+    z-index: 101;
 
 }
 
