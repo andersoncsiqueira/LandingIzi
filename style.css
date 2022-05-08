@@ -30,24 +30,19 @@ align-items: center;
 
 .call {
     display: flex;
-    height: 150px;
+    position: absolute;
+    height: 25vh;
     width: 100vw;
     background-color: #F2522E;
     justify-content: center;
+    bottom: 0px;
 
-}
-
-.focus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
 }
 
 
 h1 {
     top: 20px;
-    left: 75px;
+    text-align: center;
     font-size: 48px;
     position: absolute;
     color: wheat;
@@ -56,20 +51,21 @@ h1 {
 }
 
 #price {
-position: absolute;
-top: 25px;
-right: 150px;
+
 color: wheat;
 font-size: 45px;
 font-weight: bolder;
 text-shadow: black 4px 4px ;
 }
 
+.priceimg {
+    display: flex;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    margin-left: 145px;
     align-items: center;
     
 }
@@ -113,18 +109,19 @@ text-shadow: black 4px 4px ;
 
 #calcprinpal {
     height: 300px;
+    position: relative;
     
 }
 
 .cards {
     display: flex;
-    flex-direction: column;
     width: max-content;
 }
 
 .cards img {
     
-   margin-top: 10px;
+    width: 30px;
+  
     
 }
 
@@ -152,6 +149,102 @@ text-shadow: black 4px 4px ;
 #logo {
 
     position: absolute;
-    left: 5px;
-    top: 5px;
+    right: 5px;
+    top: 2px;
+    z-index: 100;
 }
+
+#blockone{
+    display: flex;
+}
+
+@media (max-width:1200px){
+
+.contain {
+    display: flex;
+    flex-direction: column;
+}
+
+#blockone {
+    margin-top: 45px;
+}
+
+.cards {
+    display: flex;
+    position: relative;
+    left: 150px;
+
+}
+
+}
+
+@media (max-width:960px){
+
+
+
+    .contain {
+        
+        background: #D97D0D;
+        width: 80vw;
+        min-width: 400px;
+        border-radius: 45px;
+        display: flex;
+        
+        
+        }
+    .contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    #blockone {
+        flex-direction: column;
+        margin-top: 45px;
+    }
+    
+    .cards {
+        display: flex;
+        position: relative;
+        left: 150px;
+        margin-bottom: 10px;
+    
+    }
+
+    #calcprinpal {
+        height: 150px;
+        
+    }
+
+    .infoyellow {
+
+        width: 300px;
+        display: flex;
+        background-color: #F2a922;
+        margin: 5px;
+        padding: 2px;
+        border-radius: 15px;
+        height: 55px;
+        box-shadow: black 2px 2px;
+        text-align: left;
+        margin-bottom: 35px;
+    
+    }   
+
+    .infored {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F2522E;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 15px;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        color: beige;
+        box-shadow: black 2px 2px;
+    }
+    
+    
+    }
