@@ -34,11 +34,12 @@ align-items: center;
 .call {
     display: flex;
     position: absolute;
-    height: 30vh;
+    height: 25vh;
     width: 100vw;
     background-color: #F2522E;
     justify-content: center;
-    bottom: -20px;
+    
+    bottom: -30px;
 
 }
 
@@ -124,8 +125,8 @@ text-shadow: black 4px 4px ;
 
 #close {
     position: absolute;
-    height: 45px;
-    width: 45px;
+    height: 20px;
+    width: 20px;
     right: 8px;
     top: 16px;
     color: red;
@@ -134,7 +135,6 @@ text-shadow: black 4px 4px ;
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
-    font-size: 35px;
 }
 
 .infored span {
@@ -194,7 +194,7 @@ text-shadow: black 4px 4px ;
 
 footer {
     margin-top: 0px;
-    background-color: #000000;
+    background-color: #0a0a0a;
     color: white;
 }
 
