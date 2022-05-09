@@ -1,0 +1,33 @@
+
+
+
+
+@keyframes animationName {
+    0%{background-position:0% 50%;}
+    50%{background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+@keyframes blink{
+    
+    0%{ border: 2px white; background: none;}
+    100%{ border: 2px #D97D0D solid ; background: white;}
+
+}
+
+
+
+body {
+    background-image: linear-gradient(-90deg,white,white,rgb(115, 218, 115),white,white);
+    background-size: 400% 400%;
+    background-position: relative;
+    animation: animationName 30s ease infinite;
+} 
+
+#callwhats {
+    animation: blink 2s ease infinite;
+    border-radius: 15px;
+    padding: 3px;
+}
+

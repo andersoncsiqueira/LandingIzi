@@ -16,4 +16,6 @@ close.addEventListener('click', ()=> {
     infoPLus.classList.toggle('off')
     
     
-    })
+})
+
+
