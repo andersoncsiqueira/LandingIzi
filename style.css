@@ -9,6 +9,11 @@
 
 body {
     background: black;
+    overflow: hidden;
+}
+
+html {
+    overflow: hidden;
 }
 
 main {
@@ -31,26 +36,13 @@ justify-content:space-around;
 align-items: center;
 }
 
-.call {
-    display: flex;
-    position: absolute;
-    height: 25vh;
-    width: 100vw;
-    background-color: #F2522E;
-    justify-content: center;
-    
-    bottom: -30px;
-
-}
-
-
 h1 {
-    top: 20px;
+    top: 45px;
     text-align: center;
     font-size: 48px;
     position: absolute;
     color: wheat;
-    text-shadow: black 4px 4px ;
+    text-shadow: black 2px 2px ;
     
 }
 
@@ -59,11 +51,12 @@ h1 {
 color: wheat;
 font-size: 45px;
 font-weight: bolder;
-text-shadow: black 4px 4px ;
+text-shadow: black 2px 4px ;
 }
 
 .priceimg {
     display: flex;
+    align-items: center;
 }
 
 .info {
@@ -123,14 +116,33 @@ text-shadow: black 4px 4px ;
     
 }
 
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+ul {
+    align-items: center;
+    text-decoration: none;
+    margin: 35px;
+}
+
+li {
+    list-style-type: none;
+}
+
 #close {
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     right: 8px;
-    top: 16px;
+    top: 36px;
     color: red;
     font-weight: bolder;
+    font-size: 35px;
     border: red solid 1px;
     border-radius: 50%;
     text-align: center;
@@ -192,10 +204,25 @@ text-shadow: black 4px 4px ;
     display: flex;
 }
 
+#callwhats {
+position: absolute;
+z-index: 111;
+bottom: 170px; 
+font-size: large;
+font-weight: bolder;
+text-align: center;
+color: #F2522E;
+
+
+}
+
 footer {
-    margin-top: 0px;
+    position: absolute;
+    bottom: 0;
     background-color: #0a0a0a;
     color: white;
+    width: 100vw;
+    z-index: 110;
 }
 
 @media (max-width:1200px){
@@ -220,7 +247,9 @@ footer {
 
 @media (max-width:960px){
 
-
+    h1 {
+        font-size: 28px;
+    }
 
     .contain {
         
@@ -286,5 +315,31 @@ footer {
         box-shadow: black 2px 2px;
     }
     
+    .call {
+
+        height: 15vh;
+    }
+
+    .buttonwhats {
+        position: relative;
+        bottom: 5px; 
+        width: 199px;
+        height: 199px;
+        border-radius: 50%;
+        box-shadow: black 2px 5px;
+        z-index: 101;
+    }
+
+    #callwhats {
+        position: absolute;
+        z-index: 111;
+        bottom: 110px; 
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+        color: #F2522E;
+        
+        
+        }
     
     }
