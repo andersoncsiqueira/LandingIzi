@@ -136,6 +136,7 @@ li {
 
 #close {
     position: absolute;
+    background-color: rgb(11, 12, 12);
     height: 40px;
     width: 40px;
     right: 8px;
@@ -251,16 +252,7 @@ footer {
         font-size: 28px;
     }
 
-    .contain {
-        
-        background: #D97D0D;
-        width: 80vw;
-        min-width: 400px;
-        border-radius: 45px;
-        display: flex;
-        
-        
-        }
+
     .contain {
         display: flex;
         flex-direction: column;
@@ -343,3 +335,134 @@ footer {
         }
     
     }
+
+    @media (max-height:550px){
+
+        h1 {
+            font-size: 28px;
+            margin-right: 150px;
+            margin-top: -30px;
+            
+        }
+    
+        .contain {
+            
+            background: #D97D0D;
+            width: 95vw;
+            min-width: 400px;
+            border-radius: 45px;
+            display: flex;
+            flex-direction: row;
+            
+            }
+        
+        
+        #blockone {
+            flex-direction: row;
+            margin-top: 45px;
+        }
+        
+        .cards {
+            display: none;
+        
+        }
+    
+        #calcprinpal {
+            height: 150px;
+            
+        }
+    
+        .infoyellow {
+    
+            width: 300px;
+            display: flex;
+            background-color: #F2a922;
+            margin: 5px;
+            padding: 2px;
+            border-radius: 15px;
+            height: 65px;
+            box-shadow: black 2px 2px;
+            text-align: left;
+            margin-bottom: 35px;
+        
+        }   
+    
+        .infored {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F2522E;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 15px;
+            height: 25px;
+            justify-content: center;
+            align-items: center;
+            color: beige;
+            box-shadow: black 2px 2px;
+        }
+        
+        .call {
+    
+            height: 15vh;
+        }
+    
+        .buttonwhats {
+            position: relative;
+            bottom: 35px; 
+            width: 199px;
+            height: 199px;
+            border-radius: 50%;
+            box-shadow: black 2px 5px;
+            z-index: 101;
+        }
+    
+        #callwhats {
+            position: absolute;
+            z-index: 111;
+            bottom: 70px; 
+            font-size: large;
+            font-weight: bolder;
+            text-align: center;
+            color: #F2522E;
+            
+            
+            }
+
+        #plusInfo {
+             position: absolute;
+             height: 330px;
+             width: 80vw;
+             z-index: 99;
+             background-color: #F2a922;
+            margin: auto;
+
+            }
+
+            #plusInfo h2{
+                    margin-top: 10px;
+            }
+
+            #plusInfo ul {
+                margin-top: 2px;
+                font-size: 11px;
+            }
+
+            
+       #close {
+           position: absolute;
+           background-color: rgb(11, 12, 12);
+           height: 40px;
+           width: 40px;
+           right: 180px;
+           top: 36px;
+           color: red;
+           font-weight: bolder;
+           font-size: 35px;
+           border: red solid 1px;
+           border-radius: 50%;
+           text-align: center;
+           cursor: pointer;
+}
+        
+        }
