@@ -10,6 +10,7 @@
 body {
     background: rgb(255, 255, 255);
     overflow: hidden;
+   
 }
 
 html {
@@ -20,6 +21,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(IMG/logo.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right 0px;
    
 }
 
