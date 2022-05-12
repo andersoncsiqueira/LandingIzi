@@ -10,6 +10,7 @@
 body {
     background: rgb(255, 255, 255);
     overflow: hidden;
+   
 }
 
 html {
@@ -20,6 +21,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(IMG/logo.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right 0px;
    
 }
 
@@ -210,11 +215,14 @@ li {
 #callwhats {
 position: absolute;
 z-index: 111;
-bottom: 170px; 
+bottom: 170px;
+width: 100px; 
+height: 100px;
 font-size: large;
 font-weight: bolder;
 text-align: center;
 color: #F2522E;
+border-radius: 50%;
 
 
 }
