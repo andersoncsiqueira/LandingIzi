@@ -12,7 +12,7 @@
 @keyframes blink{
     
     0%{ border: 2px white; background: none;}
-    100%{ border: 2px #D97D0D solid ; background: white;}
+    100%{ border: 5px #D97D0D double ; background: white;}
 
 }
 
